@@ -1,4 +1,5 @@
 # Jiao Jiang's Website
 ## Business Analytics | Data Scientist
 
-[Go to Code Folder](/code/index.md)
+[Industry Project](/code/index.md)
+[Class Project](/class_project/index.md)
