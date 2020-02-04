@@ -1,7 +1,7 @@
 title:      
 logo: /assets/img/protfolio.jpg
-description:      
-show_downloads: false
+description: This is my website     
+show_downloads: true
 google_analytics:    
 theme:     jekyll-theme-tactile
 #jekyll-theme-slate
