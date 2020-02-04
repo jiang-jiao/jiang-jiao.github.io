@@ -1,7 +1,7 @@
 
 # BUAD5082 Machine Learning 
-# Team 6
-# Bryan Hannah | Jiao Jiang |
+## Team 6
+### Bryan Hannah | Jiao Jiang |
 
 Code file 1:
   - [View Juypter Notebook](ipynb.html)
