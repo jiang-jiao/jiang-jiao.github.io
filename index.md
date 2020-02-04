@@ -1,5 +1,4 @@
-# Jiao Jiang's Website
-## Business Analytics | Data Scientist
+### Projects
 
  <img src="/assets/img/github1.jpg" width="300" height="200" class="img-responsive" alt=""> 
  
