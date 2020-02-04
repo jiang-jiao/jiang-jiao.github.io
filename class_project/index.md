@@ -1,5 +1,5 @@
 
-# BUAD5082 Machine Learning Class Project
+# BUAD5082 Machine Learning 
 # Team 6
 # Bryan Hannah | Jiao Jiang |
 
