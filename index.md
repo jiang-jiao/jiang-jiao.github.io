@@ -6,4 +6,5 @@
 
  
 [Class Project](/class_project/index.md)
- - [Picture](myPic.jpg)
+<img src="img/github1.PNG" class="img-responsive" alt=""> </div>
+
