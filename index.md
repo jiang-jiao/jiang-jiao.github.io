@@ -7,4 +7,5 @@
  
  
  <img src="/assets/img/github1.jpg" width="300" height="200" class="img-responsive" alt=""> 
-[Class Project](/class_project/index.md)
+ 
+ [BUAD5082 Machine Learning Class Project](/class_project/index.md)
