@@ -1,6 +1,7 @@
-title:  
+title:      
 logo: /assets/img/protfolio.jpg
-description:  
+description:      
 show_downloads: false
-google_analytics:
-theme: jekyll-theme-slate
+google_analytics:    
+theme:     
+#jekyll-theme-slate
