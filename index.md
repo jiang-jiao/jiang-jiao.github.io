@@ -13,4 +13,5 @@
   
  
  <img src="/assets/img/github4.jpg" width="300" height="200" class="img-responsive" alt=""> 
+ 
    [Demand Forecasting](/demand_forecasting/index.md)
