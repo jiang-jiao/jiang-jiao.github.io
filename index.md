@@ -6,4 +6,4 @@
 
  
 [Class Project](/class_project/index.md)
-<img src="/assets/img/github1.jpg" width="200" height="200" class="img-responsive" alt=""> 
+<img src="/assets/img/github1.jpg" width="200" height="100" class="img-responsive" alt=""> 
