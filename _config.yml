@@ -3,5 +3,6 @@ logo:  "/assets/img/protfolio.jpg?raw=true"
 description: Business Analytics | Data Scientist 
 show_downloads: true
 google_analytics:    
-theme:     jekyll-theme-tactile
+theme: jekyll-theme-minimal
+#jekyll-theme-tactile
 #jekyll-theme-slate
