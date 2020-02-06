@@ -1,5 +1,5 @@
 title:  
-logo: "/assets/img/github1.jpg" 
+logo: " <img src="/assets/img/github1.jpg" width="300" height="200" class="img-responsive" alt=""> " 
 description: Data Scientist | Business Analyst 
 show_downloads: true
 google_analytics:    
