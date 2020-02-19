@@ -3,11 +3,11 @@
 ## Team 6
 ### Chris Conlan | Bryan Hannah | Jiao Jiang | Luc Maestrello
 
-8.3.3 & 8.3.4: Bagging, Random Forests, Boosting
-  - [View Juypter Notebook](ipynb.html)
+8.3.3 & 8.3.4 Lab: Bagging, Random Forests, Boosting
+  - [View R Markdown](ipynb.html)
 
-8.3.3 R Code
+8.3.3 R Code: Bagging and Random Forests
   - [View R Code](ipynb.html)
 
-8.3.4 R file
+8.3.4 R Code: Boosting
   - [View R Code](ipynb.html)
