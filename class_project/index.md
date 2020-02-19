@@ -12,4 +12,7 @@
   - [View R Code1](8.3.3.R)
 
 8.3.4 R Code: Boosting
-  - [View R Code2](ipynb.html)
+  - [View R Code2](8.3.4.R)
+
+8.4.7 Applied Exercise
+  - [View R Code3](8.4.7.R)
