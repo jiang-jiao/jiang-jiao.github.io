@@ -7,7 +7,7 @@
   - [View R Markdown](ipynb.html)
 
 8.3.3 R Code: Bagging and Random Forests
-  - [View R Code](ipynb.html)
+  - [View R Code1](ipynb.html)
 
 8.3.4 R Code: Boosting
-  - [View R Code](ipynb.html)
+  - [View R Code2](ipynb.html)
