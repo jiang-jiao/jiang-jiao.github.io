@@ -1,5 +1,5 @@
 
-# BUAD5082 Machine Learning 
+# BUAD5082 Machine Learning 2
 ## Team 6
 ### Chris Conlan | Bryan Hannah | Jiao Jiang | Luc Maestrello
 
