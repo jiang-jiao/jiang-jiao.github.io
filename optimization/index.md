@@ -3,7 +3,8 @@
 
 <img src="/optimization/github2.jpg" width="300" height="200" class="img-responsive" alt=""> 
 
-8.3.3 & 8.3.4 Lab: Bagging, Random Forests, Boosting
+1.Distribution Problem: 
+How to assign truckloads to carriers and transport the products at supply location to destinations where they are demanded at a minimum cost.
   - [View R Markdown](Jiang-WestVaco_Presentation.html)
   - [Download Python Code](Jiang-WestVaco_Presentation.ipynb)
 
