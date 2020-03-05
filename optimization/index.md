@@ -5,5 +5,6 @@
 
 8.3.3 & 8.3.4 Lab: Bagging, Random Forests, Boosting
   - [View R Markdown](Jiang-WestVaco_Presentation.html)
+  - [Download Python Code](Jiang-WestVaco_Presentation.ipynb)
 
 
