@@ -6,7 +6,7 @@
 
  <img src="/assets/img/github2.jpg" width="300" height="200" class="img-responsive" alt=""> 
  
-  [Portfolio Optimization](/protfolio_optimization/index.md)
+  [Optimization](/protfolio_optimization/index.md)
 
  <img src="/assets/img/github3.jpg" width="300" height="200" class="img-responsive" alt=""> 
  
