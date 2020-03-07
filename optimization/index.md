@@ -10,3 +10,7 @@ How to assign truckloads to carriers and transport the products at supply locati
   - [Download Python Code](Jiang-WestVaco_Presentation.ipynb)
 
 
+2. Portfolio Optimization
+Write a Python program help a user to select a portfoilo of NASDAQ stocks, by computing an efficient frontier.
+ - [View Writeup in PDF](Jiang-portfolio.pdf)
+ - [View Writeup in Rmd](Jiang-portfolio.Rmd) 
