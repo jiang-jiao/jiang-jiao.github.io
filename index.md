@@ -1,17 +1,14 @@
 ## Jiao Jiang's Professional Website
 
- <img src="/assets/img/github1.jpg" width="300" height="200" class="img-responsive" alt=""> 
- 
- [BUAD5082 Machine Learning Class Project](/class_project/index.md)
+### Class Project 
+ [BUAD5082 Machine Learning Class Project](/class_project/index.md) in R
+ [BUAD5732 Data Visualization Team Project](/visulization/index.md) in Tableau
+ [BUAD5272 Database Management Team Project](/database/index.md) in MySQL
 
- <img src="/assets/img/github2.jpg" width="300" height="200" class="img-responsive" alt=""> 
- 
-  [Optimization](/optimization/index.md)
 
- <img src="/assets/img/github3.jpg" width="300" height="200" class="img-responsive" alt=""> 
- 
-   [E-Commerce Project](/Ecommerce/index.md)
- 
- <img src="/assets/img/github4.jpg" width="300" height="200" class="img-responsive" alt=""> 
- 
-   [Demand Forecasting](/demand_forecasting/index.md)
+### Industry Project
+   [E-Commerce Project](/Ecommerce/index.md) in R
+   [Demand Forecasting](/demand_forecasting/index.md) in R
+
+### Optimization
+ [Optimization](/optimization/index.md) in Python, Gurobi, MySQL and R
