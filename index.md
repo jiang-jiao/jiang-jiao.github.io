@@ -10,7 +10,7 @@
 
  <img src="/assets/img/github3.jpg" width="300" height="200" class="img-responsive" alt=""> 
  
-   [E-Commerce Project](/ecommerce/index.md)
+   [E-Commerce Project](/Ecommerce/index.md)
  
  <img src="/assets/img/github4.jpg" width="300" height="200" class="img-responsive" alt=""> 
  
