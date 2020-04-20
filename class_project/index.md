@@ -5,7 +5,7 @@
 
 ### Team Presentation 2 New York City Taxi Trip Duration
 
-<img src="/class_project/GNbWoOK.jpg" width="300" height="200" class="img-responsive" alt=""> 
+<img src="/class_project/NYCTaxi.jpg" width="300" height="200" class="img-responsive" alt=""> 
 
 1. View Code from Kaggle
   - [View R Code1](Code1.R)
