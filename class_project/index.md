@@ -6,12 +6,14 @@
 ### Team Presentation 2 New York City Taxi Trip Duration
 <img src="/class_project/GNbWoOK.jpg" width="300" height="200" class="img-responsive" alt=""> 
 
+1. View Code from Kaggle
+  - [View R Code1](Code1.R)
 
-
-
+2. Improvement
+  - [View R Code2](Code2.R)
+  
 
 <img src="/class_project/github1.jpg" width="300" height="200" class="img-responsive" alt=""> 
-
 
 ### Team Presentation 1 Machine Learning Tree Methods
 
