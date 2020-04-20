@@ -4,6 +4,7 @@
 ### Chris Conlan | Bryan Hannah | Jiao Jiang | Luc Maestrello
 
 ### Team Presentation 2 New York City Taxi Trip Duration
+
 <img src="/class_project/GNbWoOK.jpg" width="300" height="200" class="img-responsive" alt=""> 
 
 1. View Code from Kaggle
