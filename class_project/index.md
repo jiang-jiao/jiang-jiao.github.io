@@ -5,7 +5,7 @@
 
 ### Team Presentation 2 New York City Taxi Trip Duration
 
-<img src="/class_project/NYCTaxi.jpg" width="350" height="250" class="img-responsive" alt=""> 
+<img src="/class_project/NYCTaxi.jpg" width="350" height="200" class="img-responsive" alt=""> 
 
 1. Kaggle Competition Code & Explanation
 
@@ -26,7 +26,7 @@
  - [![Presentation Video](http://img.youtube.com/vi/XXXXX/0.jpg)](http://www.youtube.com/watch?v=XXXXX)
  
 
-<img src="/class_project/github1.jpg" width="350" height="250" class="img-responsive" alt=""> 
+<img src="/class_project/github1.jpg" width="350" height="200" class="img-responsive" alt=""> 
 
 ### Team Presentation 1 Machine Learning Tree Methods
 
