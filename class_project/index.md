@@ -8,8 +8,8 @@
 <img src="/class_project/NYCTaxi.jpg" width="300" height="200" class="img-responsive" alt=""> 
 
 1. Kaggle Competition Code & Explanation
-  - [View R Markdown](Kaggle-code.html)
-  - [View R Code](Kaggle-code.Rmd)
+  - [View R Markdown](kaggle-code.html)
+  - [View R Code](kaggle-code.Rmd)
 
 2. Improvement Code & Explanation
  - [View R Markdown](Improvement.html)
