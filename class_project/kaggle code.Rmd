@@ -1,0 +1,70 @@
+---
+title: "NYC Taxi Trip Duration Kaggle Code"
+author: "Team 6"
+output: html_document
+---
+
+
+## The following code is from Kaggle: https://www.kaggle.com/mrisdal/last-place-laura-benchmark/output
+
+```{r}
+
+# missing rm(list=ls())
+# Load libraries (assumes you have packages already installed)
+library(data.table)
+# library(tidyverse) had to comment out --> package 2.2.0 is required but 2.1.1 is being loaded
+library(dplyr)  # missing
+library(lubridate)
+library(ggplot2)  # missing
+
+# Column classes
+#id, vendor id, prickup datetme, dropoff, passenger count, pickup longitude, latitude,
+#drop off longitude, latitude, store_and_fwd_flag, trip duration
+train_classes <- c("factor", "factor", "character", "character", "integer",
+                   "numeric", "numeric", "numeric", "numeric", 
+                   "factor", "numeric")
+
+test_classes <- c("factor", "factor", "character", "integer",
+                  "numeric", "numeric", "numeric", "numeric", "factor")
+
+# Read in the data
+train <- read.csv("train.csv")
+test <- read.csv("test.csv")
+
+
+names(train) # feature names
+summary(train)
+
+
+sample <- train %>% 
+  mutate(pickup_hour = hour(ymd_hms(pickup_datetime))) %>%   #mutate will convert pickup_datetime into total hours
+  sample_n(10000)
+
+
+# really interesting plot --> visual adds value
+ggplot(sample, aes(x = pickup_hour, y = log(trip_duration))) +
+  geom_point(position = "jitter",
+             alpha = 0.25) +
+  geom_smooth() +
+  labs(x = "Hour of Pickup", 
+       y = "Log of Trip Duration",
+       title = "Trip Duration by Pickup Hour")
+
+
+library(randomForest) # include randomForest package (assumes you already have installed)
+
+# perform model fit using randomForest using trip_duration on vendor_id, passenger_count, pickup_longitude and pickup_latitude features
+rf_benchmark <- randomForest(trip_duration ~ vendor_id + passenger_count
+                             + pickup_longitude + pickup_latitude,
+                             data = sample,
+                             ntree = 100)
+
+rf_prediction <- predict(rf_benchmark, test, type = "response") 
+
+
+
+# Prepare the submission file and write it to the "Output" directory
+#submission_file <- data.frame(id = test$id,
+#                             trip_duration = rf_prediction)
+#write.csv(submission_file, "submission_file.csv", row.names=F)
+```
