@@ -7,12 +7,15 @@
 
 <img src="/class_project/NYCTaxi.jpg" width="300" height="200" class="img-responsive" alt=""> 
 
-1. Code
-  - [View R Code1](Code1.R)
-  - [View R Code2](Code2.R)
+1. Kaggle Competition Code & Explanation
+  - [View R Markdown](Kaggle-code.html)
+  - [View R Code](Kaggle-code.Rmd)
 
+2. Improvement Code & Explanation
+ - [View R Markdown](Improvement.html)
+ - [View R Code](Improvement.Rmd)
 
-2. Presentation
+3. Presentation
   link to presentation
 
 <img src="/class_project/github1.jpg" width="300" height="200" class="img-responsive" alt=""> 
