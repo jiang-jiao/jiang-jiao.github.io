@@ -5,21 +5,28 @@
 
 ### Team Presentation 2 New York City Taxi Trip Duration
 
-<img src="/class_project/NYCTaxi.jpg" width="300" height="200" class="img-responsive" alt=""> 
+<img src="/class_project/NYCTaxi.jpg" width="400" height="200" class="img-responsive" alt=""> 
 
 1. Kaggle Competition Code & Explanation
+
   - [View R Markdown](kaggle-code.html)
+  
   - [View R Code](kaggle-code.Rmd)
+  
 
 2. Improvement Code & Explanation
+
  - [View R Markdown](Improvement.html)
+ 
  - [View R Code](Improvement.Rmd)
+ 
 
 3. Presentation Video
- - [View R Markdown](Improvement.html)
- [![Presentation Video](http://img.youtube.com/vi/XXXXX/0.jpg)](http://www.youtube.com/watch?v=XXXXX)
 
-<img src="/class_project/github1.jpg" width="300" height="200" class="img-responsive" alt=""> 
+ - [![Presentation Video](http://img.youtube.com/vi/XXXXX/0.jpg)](http://www.youtube.com/watch?v=XXXXX)
+ 
+
+<img src="/class_project/github1.jpg" width="400" height="200" class="img-responsive" alt=""> 
 
 ### Team Presentation 1 Machine Learning Tree Methods
 
