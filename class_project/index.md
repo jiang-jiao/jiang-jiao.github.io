@@ -7,21 +7,21 @@
 
 <img src="/class_project/NYCTaxi.jpg" width="350" height="200" class="img-responsive" alt=""> 
 
-1. Kaggle Competition Code & Explanation
+##### Kaggle Competition Code & Explanation
 
   - [View R Markdown](kaggle-code.html)
   
   - [View R Code](kaggle-code.Rmd)
   
 
-2. Improvement Code & Explanation
+##### Improvement Code & Explanation
 
  - [View R Markdown](Improvement.html)
  
  - [View R Code](Improvement.Rmd)
  
 
-3. Presentation Video
+##### Presentation Video
 
  - [![Presentation Video](http://img.youtube.com/vi/XXXXX/0.jpg)](http://www.youtube.com/watch?v=XXXXX)
  
