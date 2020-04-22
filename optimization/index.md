@@ -11,6 +11,6 @@ How to assign truckloads to carriers and transport the products at supply locati
 
 
 ## Portfolio Optimization
-Write a Python program help a user to select a portfoilo of NASDAQ stocks, by computing an efficient frontier.
+Python program that can help users to select a portfoilo of NASDAQ stocks and compute an efficient frontier.
  - [View Writeup in PDF](Jiang-portfolio.pdf)
  - [View Writeup in Rmd](Jiang-portfolio.Rmd) 
