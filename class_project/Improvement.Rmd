@@ -1,0 +1,109 @@
+---
+title: NYC Taxi Trip Duration Code Improvement
+author: Jiao Jiang 
+output: html_document
+---
+######## Load required packages
+
+```{r, echo=FALSE}
+installIfAbsentAndLoad <- function(neededVector) {
+  for(thispackage in neededVector) {
+    if( ! require(thispackage, character.only = T) )
+    { install.packages(thispackage)}
+    require(thispackage, character.only = T)
+  }
+}
+
+```
+
+```{r}
+needed <- c("data.table", "tidyverse","lubridate","gridExtra","ggplot2","corrplot") 
+```
+
+```{r, echo=FALSE, message = FALSE, warning=FALSE}
+installIfAbsentAndLoad(needed)
+```
+######## Read Dataset
+```{r}
+train <- read.csv("train.csv")
+test <- read.csv("test.csv")
+count(train)
+```
+######## 1,458,641 data points in train dataset
+
+######## Improvement 1: Data Cleaning
+######## 1.1 Look for missing values
+```{r}
+sum(is.na(train))
+sum(is.na(test))
+```
+
+######## Examine Train Dataset
+```{r}
+summary(train)
+```
+
+######## 1.2 Look for value that doesn't make sense
+######## trip_duration is measured in seconds
+```{r}
+day_plus_trips <- train %>% filter(trip_duration >= 12*60*60)
+count(day_plus_trips)
+```
+######## 1993 observations
+```{r}
+less_than_1_min_trips <- train %>%filter(trip_duration <= 60)
+count(less_than_1_min_trips)
+```
+######## 8777 observations
+
+######## get rid of day_plus_trips & less_than_1_min_trips
+######## reduce size by 0.7%
+```{r}
+train=train[!row.names(train) %in% row.names(day_plus_trips),]
+train=train[!row.names(train) %in% row.names(less_than_1_min_trips),]
+```
+
+######## 1.3 Fix Date Variables
+```{r, warning=FALSE, error=FALSE}
+train = as.data.table(train)
+train[,pickup_datetime:=as.Date(pickup_datetime)]
+train[,dropoff_datetime:=as.Date(dropoff_datetime)]
+train[,":="(
+  pickup_yday=yday(pickup_datetime)
+  ,pickup_mday=mday(pickup_datetime)
+)]
+train$pickup_week <- week(train$pickup_datetime)
+train$pickup_month <- month(train$pickup_datetime)
+train$pickup_weekdays <- weekdays(train$pickup_datetime)
+train$pickup_weekend <- ifelse(train$pickup_weekdays==1 | train$pickup_weekdays==7,"Weekend","not-Weekend")
+```
+######## Plot
+######## 1.3.1 Mean trip duration by month  
+```{r}
+plot1 = train[, list(mean_trip_duration= mean(trip_duration)), by=pickup_datetime] %>%
+  ggplot(aes(x=pickup_datetime, y=mean_trip_duration)) + 
+  geom_bar(stat='identity', fill='steelblue') + 
+  labs(x='', y='Mean Trip Duration', title='Mean Trip Duration over time')
+grid.arrange(plot1)
+```
+
+######## 1.3.2 Mean trip duration by weekdays 
+```{r}
+plot2 <-train[, list(mean_trip_duration = mean(trip_duration)), by = pickup_weekdays] %>%
+  ggplot(aes(x = pickup_weekdays, y = mean_trip_duration)) +
+  geom_bar(stat = 'identity', fill = 'steelblue') +
+  labs(x = 'Month', y = 'Mean Trip Duration', title = 'Mean Trip duration by weekdays')
+grid.arrange(plot2)
+```
+
+######## 1.4 correlation matrix
+```{r}
+corr_features = train[,.(vendor_id, pickup_week, pickup_month,pickup_yday, pickup_mday,
+                         passenger_count,pickup_longitude, pickup_latitude, dropoff_longitude,
+                         dropoff_latitude, trip_duration)] 
+corrplot(cor(corr_features, use='complete.obs'), type='lower')
+```
+
+
+
+
