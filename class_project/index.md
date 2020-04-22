@@ -15,8 +15,9 @@
  - [View R Markdown](Improvement.html)
  - [View R Code](Improvement.Rmd)
 
-3. Presentation
-  link to presentation
+3. Presentation Video
+ - [View R Markdown](Improvement.html)
+ [![Presentation Video](http://img.youtube.com/vi/XXXXX/0.jpg)](http://www.youtube.com/watch?v=XXXXX)
 
 <img src="/class_project/github1.jpg" width="300" height="200" class="img-responsive" alt=""> 
 
