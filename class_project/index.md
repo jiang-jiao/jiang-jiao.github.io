@@ -26,9 +26,11 @@
  [![Presentation Video](http://img.youtube.com/vi/0zpiayyqNfo/0.jpg)](http://www.youtube.com/watch?v=0zpiayyqNfo)
  
 
+### Team Presentation 1 Machine Learning Tree Methods
+
+
 <img src="/class_project/github1.jpg" width="350" height="200" class="img-responsive" alt=""> 
 
-### Team Presentation 1 Machine Learning Tree Methods
 
 #### 8.3.3 & 8.3.4 Lab: Bagging, Random Forests, Boosting
   - [View R Markdown](Lab.html)
